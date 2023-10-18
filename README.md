@@ -21,7 +21,7 @@ npm install
 
 Start the development server:
 ```bash
-npm start
+npm run dev
 ```
 Open the application in a web browser:
 ```bash
