@@ -1,7 +1,7 @@
 # Audio Visualizer
 
-This is a simple audio visualizer that allows users to input music from their PC and change the background image. It also includes a music controller to manage the audio.  
-__This project is not yet optimized for mobile devices.__
+This is a simple Next.js audio visualizer that allows users to input music from their PC and change the background image. It also includes a music controller to manage the audio.  
+__This project is not yet optimized for mobile devices.__  
 ## Live demo
 https://adaptbit-audio.netlify.app/
 
@@ -22,6 +22,12 @@ npm install
 Start the development server:
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 Open the application in a web browser:
 ```bash
