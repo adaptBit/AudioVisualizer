@@ -1,7 +1,7 @@
-## Audio Visualizer
+# Audio Visualizer
 
-This is a simple audio visualizer that allows users to input music from their PC and change the background image. It also includes a music controller to manage the audio.
-
+This is a simple audio visualizer that allows users to input music from their PC and change the background image. It also includes a music controller to manage the audio.  
+__This project is not yet optimized for mobile devices.__
 ## Live demo
 https://adaptbit-audio.netlify.app/
 
