@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+canvas {
+  width:80%;
+  max-width:90%;
+  height:80%;
+}

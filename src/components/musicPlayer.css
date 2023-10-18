@@ -1,0 +1,68 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0.5rem;
+    width: 80%;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1px;
+    height: 0.5rem;
+    background-color: #3d49b3e0;
+    cursor: pointer;
+    border-radius: 0%;
+    box-shadow: -200px 0 0 200px #3d49b3e0;
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: #8b8e8b;
+    height: 10px;
+  }
+
+.music-container{
+    /* box-shadow: 1px 0px 18px 7px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 1px 0px 18px 7px rgba(0,0,0,0.47);
+    -moz-box-shadow: 1px 0px 18px 7px rgba(0,0,0,0.47); */
+    box-shadow: 1px 0px 18px 7px rgba(255, 255, 255, 0.47);
+    -webkit-box-shadow: 1px 0px 18px 7px rgba(255, 255, 255, 0.47);
+    -moz-box-shadow: 1px 0px 18px 7px rgba(255, 255, 255, 0.47);
+}
+
+.svg-primary {
+  fill: #3d49b3e0;
+
+}
+
+.svg-primary:hover {
+  fill: #30398ee0;
+}
+
+.svg-secondary {
+  fill: #5f66a8e0;
+}
+
+.svg-secondary:hover {
+  fill: #30398ee0;
+}
+
+@keyframes clickPluse {
+  0%,100%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.7;
+  }
+  70%{
+    opacity: 0.5;
+  }
+}
