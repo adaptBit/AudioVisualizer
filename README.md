@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Audio Visualizer
 
-## Getting Started
+This is a simple audio visualizer that allows users to input music from their PC and change the background image. It also includes a music controller to manage the audio.
 
-First, run the development server:
+## Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Input music from PC
+Change background image
+Music controller
+Installation:
+
+Clone the repository.
+Install the dependencies:
+```bash  
+npm install
 ```
+## Usage:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server:
+```bash
+npm start
+```
+Open the application in a web browser:
+```bash
+http://localhost:3000
+```
+Click the "Browse File" to input music/drop it from your PC.
+You can drop image to all area beside music drop zone on the left to change the background image.
+Use the music controller to play, pause, stop, and rewind the audio.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Contributing:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you want to contribute to this project, please read the contributing guidelines.
 
-## Learn More
+## License:
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT license.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Additional notes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The audio visualizer is built with React and React Dropzone.
+The music controller is built with React Audio Player.
+The default background image is defaultBackground.jpg, which is located in the /plublic directory.
+Example usage:
 
-## Deploy on Vercel
+## Troubleshooting:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If the audio visualization is not working, make sure that the music file is in a supported format (MP3, WAV, FLAC, AAC, OGG).
+If the background image is not showing up, make sure that the image file is in a valid format (PNG, JPG, JPEG).
+I hope this README.md file is helpful. Please let me know if you have any questions or feedback.
