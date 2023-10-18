@@ -42,7 +42,7 @@ This project is licensed under the MIT license.
 ## Additional notes:
 
 The audio visualizer is built with Web Audio API.  
-The default background image is defaultBackground.jpg, which is located in the /plublic directory.  
+The default background image is defaultBackground.jpg, which is located in the /public directory.  
 
 ## Troubleshooting:
 
