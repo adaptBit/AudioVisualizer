@@ -1,5 +1,4 @@
 export function getDeviceType() {
-  console.log(navigator.userAgent);
   if (/iPhone|iPad/.test(navigator.userAgent)) {
     return "iOS";
   } else if (/Android/.test(navigator.userAgent)) {
