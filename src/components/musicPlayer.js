@@ -47,7 +47,6 @@ const MusicPlayer = forwardRef(function MusicPlayer(props, ref) {
         }}
       >
         <div className="z-50 bg-slate-100 w-full h-[35%] absolute left-0 bottom-0  transition-all duration-500 flex justify-start items-center flex-col">
-          {/* <input type="range" min="0.0" max="100.0" onChange={props.volume} /> */}
 
           {/* seeking time */}
           <div className="flex flex-row w-full justify-center mt-4">
